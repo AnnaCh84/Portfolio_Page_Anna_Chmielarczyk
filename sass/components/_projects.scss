@@ -1,0 +1,196 @@
+.project {
+    padding: 6rem auto 5rem auto;
+    
+    img {
+        width: 100%;
+        
+        @include respond(tab-port) {
+           width: 50vh;
+        }
+        
+        @include respond(phone) {
+           width: 20vh;
+        }
+    }
+    
+    
+    &__items1 {
+        width: 70vh;
+        margin: 2rem auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        
+        
+        @include respond(tab-port) {
+            width: 40vh;
+            
+        }
+        
+        @include respond(phone) {
+            width: 30vh;
+        }
+    }
+
+    &__item1 {
+        position: relative;
+        border-bottom: 5px solid $color-pink;
+        overflow: hidden;
+        cursor: pointer;
+        
+        @include respond(tab-port) {
+            width: 40vh;
+            
+        }
+
+        @include respond(phone) {
+            width: 30vh;
+        }
+
+        &--p1 {
+            width: 100%;
+        }
+
+        &::after {
+            content: '';
+            position: absolute;
+            top: 100%;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            background: $color-pink;
+            opacity: 0; 
+            transition: all .5s;
+        }
+
+        &:hover {
+            &::after {
+                top: 0;
+                opacity: .9;
+            }
+            .project__btn11 {
+                opacity: 1;
+            }
+        }
+    }
+
+    &__btns1 {
+        position: absolute;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        z-index: 1;
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        text-align: center;  
+        
+        & a {
+            opacity: 0;
+            color: $color-white;
+            text-decoration: none;
+            font-size: 2.5rem;
+            transition: all .5s;
+
+            &:hover {
+                color: $color-grey-dark-3;
+            }
+        }
+    }
+
+
+}
+    
+.projects {
+    background-color: $color-grey-dark-3;
+    padding: 20rem 0 3rem 0;
+    margin-top: -21vh;
+    
+    &__items {
+        width: 98vh;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 4rem;
+        
+        @include respond(tab-land) {
+            padding: 1rem 4rem 8rem 3rem ;
+            grid-gap: 4rem;
+        }
+
+        
+        @include respond(tab-port) {
+            width: 80vh;
+
+        }
+
+        @include respond(phone) {
+            width: 40vh;
+            grid-template-columns: 1fr;
+        }
+    }
+    
+    &__item {
+        position: relative;
+        border-bottom: 5px solid $color-pink;
+        overflow: hidden;
+        cursor: pointer;
+    
+        img {
+            width: 100%;
+        }
+    
+        &::after {
+            content: '';
+            position: absolute;
+            top: 100%;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            background: $color-pink;
+            opacity: 0; 
+            transition: all .5s;
+        }
+    
+        &:hover {
+            &::after {
+                top: 0;
+                opacity: .9;
+            }
+            .projects__btn1 {
+                opacity: 1;
+            }
+        }
+    }
+    
+    &__btns {
+        position: absolute;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        z-index: 1;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        text-align: center;  
+    }
+    
+    & a {
+        opacity: 0;
+        color: $color-white;
+        text-decoration: none;
+        font-size: 2rem;
+        transition: all .5s;
+
+        &:hover {
+            color: $color-grey-dark-3;
+        }
+    }
+}
+
+
+
+
+
+
+
+

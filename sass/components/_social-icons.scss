@@ -1,0 +1,28 @@
+.social-icons {
+    position: fixed;
+    bottom: 4rem;
+    left: 4rem;
+
+    &__icon {
+        font-size: 4rem;
+        
+        background-image: linear-gradient(to right bottom, $color-pink, $color-pink-dark);
+        -webkit-background-clip: text;
+        color: transparent;
+        
+        @include respond(phone){
+            display: block;
+        }
+
+
+        &:hover {
+           color: $color-pink-dark;
+        }
+    }
+
+    & a {
+        text-decoration: none;
+        padding: 0.4rem;
+        margin-right: 1rem;
+    } 
+}

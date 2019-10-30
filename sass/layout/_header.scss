@@ -1,0 +1,89 @@
+.header {
+    height: 65vh;
+    background-image: linear-gradient(
+        to right bottom, 
+        rgba($color-primary, 0.86), 
+        rgba($color-primary-dark, 0.86)), 
+        url(../img/hero.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 45vh, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 45vh, 0 100%);
+    
+    
+    @include respond(tab-land) {
+        height: 60vh;
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 45vh, 0 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 45vh, 0 100%);
+    }
+    
+    @include respond(tab-port) {
+        height: 50vh;
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 38vh, 0 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 38vh, 0 100%);
+    }
+    
+    @include respond(phone) {
+        height: 40vh;
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 35vh, 0 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 35vh, 0 100%);
+    }
+    
+    
+
+    &__text-box {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    
+    &--single {
+        text-decoration: none;
+    }
+}
+
+.header1 {
+    height: 46vh;
+    background-image: linear-gradient(
+        to right bottom, 
+        rgba($color-primary, 0.86), 
+        rgba($color-primary-dark, 0.86)), 
+        url(../img/hero.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+
+    
+    @include respond(tab-land) {
+        height: 50vh;
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 35vh, 0 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 35vh, 0 100%);
+    }
+    
+    @include respond(phone) {
+        height: 30vh;
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 22vh, 0 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 22vh, 0 100%);
+    }
+
+
+    clip-path: polygon(0 0, 100% 0, 100% 25vh, 0 100%);
+
+    &__text-box {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    &--single {
+        text-decoration: none;
+    }
+}
+
+

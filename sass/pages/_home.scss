@@ -1,0 +1,66 @@
+.section-about {
+    background-color: $color-gray-light-1;
+    padding: 20rem 0 10rem 0;
+    margin-top: -23vh;
+    
+    
+    @include respond(tab-land) {
+        padding: 20rem 0 10rem 0;
+    }
+    
+    @include respond(tab-port) {
+       padding: 25rem 0 10rem 0;
+    }
+    
+    @include respond(phone) {
+        padding: 30rem 0 10rem 0;
+    }
+    
+}
+
+.section-skills {
+    padding: 10rem 0;
+    background-image: linear-gradient(
+        to right bottom, 
+        rgba($color-primary, 0.86), 
+        rgba($color-primary-dark, 0.86)), 
+        url(../img/nat-4.jpg);
+    background-size: cover;
+    transform: skewY(-5deg);
+    margin-top: -10rem;
+    
+    @include respond(tab-land) {
+        padding: 6rem 6rem 8rem 6rem ;
+    }
+    
+    @include respond(tab-port) {
+        padding: 10rem 0 10rem 0;
+    }
+    
+    & > * {
+        transform: skewY(5deg);
+    }
+}
+    
+.section-projectsmain {
+    background-color: $color-gray-light-1;
+    padding: 20rem 0 6rem 0;
+    margin-top: -10rem;
+    
+    @include respond(tab-port) {
+        padding: 20rem 0 10 0;
+    }
+}
+
+.section-single {
+    background-color: $color-gray-light-1;
+    padding: 15rem 0;
+    margin-top: -15rem;
+
+}
+
+.section-icons {
+    height: 100%;
+    width: 100%;
+}
+
