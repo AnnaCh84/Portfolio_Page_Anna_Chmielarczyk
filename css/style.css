@@ -634,10 +634,25 @@ body {
   .container__languages {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 20px;
-    margin-bottom: 24px; }
+    grid-gap: 10px;
+    margin-bottom: 10px; }
     .container__languages ul {
       list-style-type: none; }
+    .container__skill {
+    margin-bottom: 24px;
+    }
+    .container__skill ul {
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    border: solid 2px #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+    color: #000;
+    font-weight: bold;
+    opacity: 0.75;}
   .container__interests {
     font-size: 3rem;
     display: inline; }
@@ -659,6 +674,7 @@ body {
     background-image: linear-gradient(to right bottom, #ff652f, #982700);
     -webkit-background-clip: text;
     color: transparent; }
+
   .skill-box__icon-text {
     font-size: 3.8rem;
     font-weight: 700;
@@ -670,10 +686,10 @@ body {
   .skill-box:hover {
     transform: translateY(-1.5rem) scale(1.03); }
   .skill-box__progress-title {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     font-weight: bold;
     color: #000;
-    margin: 0 15rem 0 0; }
+    margin: 0; }
     @media (max-width: 56.25em) {
       .skill-box__progress-title {
         text-align: left; } }

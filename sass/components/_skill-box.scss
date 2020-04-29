@@ -15,6 +15,15 @@
         color: transparent;
     }
     
+    &__icon-pngtext{
+        font-size: 8rem;
+        margin-bottom: 4rem;
+        display: inline-block;
+        background-image: linear-gradient(to right bottom, $color-pink, $color-pink-dark);
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+    
     &__icon-text {
         font-size: 3.8rem;
         font-weight: 700;
@@ -30,42 +39,41 @@
     }
 
     &__progress-title {
-        font-size: 1.3rem;
+        font-size: 1.5rem;
         font-weight: bold;
         color: $color-black;
-        margin: 0 15rem 0 0;
+        margin: 0;
+        text-align: center;
        
-        @include respond(tab-port) {
-            text-align: left
-        }
     }
+
     
-    &__progress {
-        height: 1.5rem;
-        line-height: 1rem;
-        border-radius: .3rem;
-        background: $color-grey-dark-3;
-        color: $color-white;
-        box-shadow: none;
-        overflow: visible;
-    }
+//    &__progress {
+//        height: 1.5rem;
+//        line-height: 1rem;
+//        border-radius: .3rem;
+//        background: $color-grey-dark-3;
+//        color: $color-white;
+//        box-shadow: none;
+//        overflow: visible;
+//    }
     
-    &__progress-bar {
-        position: relative;
-        border-radius: .3rem;
-        line-height: 1.5rem;
-        opacity: 0;
-    }
-    
-    &__progress progress-value {
-        display: block;
-        font-size: .4rem;
-        font-weight: bold;
-        position: absolute;
-        top: 0;
-        right: .8rem;
-        text-align: right;
-    }
+//    &__progress-bar {
+//        position: relative;
+//        border-radius: .3rem;
+//        line-height: 1.5rem;
+//        opacity: 0;
+//    }
+//    
+//    &__progress progress-value {
+//        display: block;
+//        font-size: .4rem;
+//        font-weight: bold;
+//        position: absolute;
+//        top: 0;
+//        right: .8rem;
+//        text-align: right;
+//    }
     
   
     

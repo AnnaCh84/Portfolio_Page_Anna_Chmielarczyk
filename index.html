@@ -1,248 +1,298 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-        <link href="http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
 
-        <link rel="stylesheet" href="css/fonts/icon-font.css/all.css">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="shortcut icon" type="image/png" href="img/favicon.png" >
-       
-        <title> Resume-Anna Chmielarczyk </title>
-    </head>
+    <link rel="stylesheet" href="css/fonts/icon-font.css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
 
-    <body>
-     
-     <div class="navigation">
-         <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
-         
-         <label for="navi-toggle" class="navigation__button">
-             <span class="navigation__icon">&nbsp;</span>
-         </label>
-         
-         <div class="navigation__background">&nbsp;</div>
-         
-         <nav class="navigation__nav">
-             <ul class="navigation__list">
-                 <li class="navigation__item"><a href="#home" class="navigation__link" onclick="closeNav()">Home</a></li>
-                 <li class="navigation__item"><a href="#about-me" class="navigation__link" onclick="closeNav()">About Me</a></li>
-                 <li class="navigation__item"><a href="#skills" class="navigation__link" onclick="closeNav()">Skills</a></li>
-                 <li class="navigation__item"><a href="projects.html" class="navigation__link"  onclick="closeNav()">Projects</a></li>
-                 <li class="navigation__item"><a href="#popup1" class="navigation__link"  onclick="closeNav()">Contact</a></li>
-             </ul>
-         </nav>
-     </div>
-      
-        <header id="home" class="header" id="contact-me">
-       <div class="header__text-box">
-           <h1 class="heading-primary">
-               <span class="heading-primary--main">Anna Chmielarczyk</span>
-               <span class="heading-primary--sub">Front-End Developer</span>
-           </h1>
-           
-           <a href="#popup1" class="btn btn--white btn--animated">Contact me</a>
-       </div>
-       </header>
-       
-       
-       <main>
-           <section id="about-me" class="section-about">
-              <div class="u-center-text u-margin-bottom-big">
-                  <h2 class="heading-secondary">
-                      About me
-                  </h2>
-              </div>
-              
-              <div class="row">
-                  <div class="about">
-                      <figure class="about__shape">
-                          <img src="img/myphoto.jpg" alt="My photo" class="about__img">
-                          <figcaption class="about__caption">
-                              Anna Chmielarczyk
-                          </figcaption>
-                      </figure>
-                          <div class="about__text">
-                              <h3 class="heading-tertiary u-margin-bottom-small">
-                                  About me
-                              </h3>
-                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nemo aperiam ut iste enim consectetur harum, nobis, tempore dolores maxime tenetur. Placeat nisi laudantium voluptatem assumenda voluptatum, magni esse quis Placeat nisi laudantium voluptatem assumenda voluptatum, magni esse quis?Placeat nisi laudantium voluptatem assumenda voluptatum, magni esse quis Placeat nisi laudantium voluptatem assumenda voluptatum, magni esse quis?</p>
-                          </div>
-                  </div>
-              </div>
-              
-              <div class="u-center-text u-margin-top-small">
-                  <a href="single-about-me.html" class="btn-text" target="_blank">Learn more about me &rarr;</a>
-              </div>
-           </section>
-           
-           <section id="skills" class="section-skills">
-               <div class="u-center-text u-margin-bottom-big">
-                   <h2 class="heading-secondary">
-                       Skills
-                   </h2>
-               </div>
-              
-               <div class="row">
-                   <div class="col-1-of-4">
-                       <div class="skill-box">
-                           <i class="skill-box__icon fab fa-html5"></i>
-                           <h4 class="skill-box__progress-title">HTML5</h4>
-                           <div class="skill-box__progress">
+    <title> Resume-Anna Chmielarczyk </title>
+</head>
+
+<body>
+
+    <div class="navigation">
+        <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+
+        <label for="navi-toggle" class="navigation__button">
+            <span class="navigation__icon">&nbsp;</span>
+        </label>
+
+        <div class="navigation__background">&nbsp;</div>
+
+        <nav class="navigation__nav">
+            <ul class="navigation__list">
+                <li class="navigation__item"><a href="#home" class="navigation__link" onclick="closeNav()">Home</a></li>
+                <li class="navigation__item"><a href="#about-me" class="navigation__link" onclick="closeNav()">About Me</a></li>
+                <li class="navigation__item"><a href="#skills" class="navigation__link" onclick="closeNav()">Skills</a></li>
+                <li class="navigation__item"><a href="projects.html" class="navigation__link" onclick="closeNav()">Projects</a></li>
+                <li class="navigation__item"><a href="#popup1" class="navigation__link" onclick="closeNav()">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <header id="home" class="header" id="contact-me">
+        <div class="header__text-box">
+            <h1 class="heading-primary">
+                <span class="heading-primary--main">Anna Chmielarczyk</span>
+                <span class="heading-primary--sub">Front-End Developer</span>
+            </h1>
+
+            <a href="#popup1" class="btn btn--white btn--animated">Contact me</a>
+        </div>
+    </header>
+
+
+    <main>
+        <section id="about-me" class="section-about">
+            <div class="u-center-text u-margin-bottom-big">
+                <h2 class="heading-secondary">
+                    About me
+                </h2>
+            </div>
+
+            <div class="row">
+                <div class="about">
+                    <figure class="about__shape">
+                        <img src="img/myphoto.jpg" alt="My photo" class="about__img">
+                        <figcaption class="about__caption">
+                            Anna Chmielarczyk
+                        </figcaption>
+                    </figure>
+                    <div class="about__text">
+                        <h3 class="heading-tertiary u-margin-bottom-small">
+                            About me
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nemo aperiam ut iste enim consectetur harum, nobis, tempore dolores maxime tenetur. Placeat nisi laudantium voluptatem assumenda voluptatum, magni esse quis Placeat nisi laudantium voluptatem assumenda voluptatum, magni esse quis?Placeat nisi laudantium voluptatem assumenda voluptatum, magni esse quis Placeat nisi laudantium voluptatem assumenda voluptatum, magni esse quis?</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="u-center-text u-margin-top-small">
+                <a href="single-about-me.html" class="btn-text" target="_blank">Learn more about me &rarr;</a>
+            </div>
+        </section>
+
+        <section id="skills" class="section-skills">
+            <div class="u-center-text u-margin-bottom-big">
+                <h2 class="heading-secondary">
+                    Skills
+                </h2>
+            </div>
+
+            <div class="row">
+                <div class="col-1-of-4">
+                    <div class="skill-box">
+                        <i class="skill-box__icon fab fa-html5"></i>
+                        <h4 class="skill-box__progress-title">HTML5</h4>
+                        <!-- <div class="skill-box__progress">
                                <div class="skill-box__progress-bar" style="background-color: #ff652f; width: 70%;">
                                    <div class="skill-box__progress-value">70%</div>
                                </div>
-                           </div>
-                       </div>
-                   </div>
-                   
-                   <div class="col-1-of-4">
-                       <div class="skill-box">
-                           <i class="skill-box__icon fab fa-css3"></i>
-                           <h4 class="skill-box__progress-title">CSS3</h4>
-                           <div class="skill-box__progress">
+                           </div> -->
+                    </div>
+                </div>
+
+                <div class="col-1-of-4">
+                    <div class="skill-box">
+                        <i class="skill-box__icon fab fa-css3"></i>
+                        <h4 class="skill-box__progress-title">CSS3</h4>
+                        <!--  <div class="skill-box__progress">
                            <div class="skill-box__progress-bar" style="background-color: #ff652f; width: 70%;">
                                <div class="skill-box__progress-value">70%</div>
                            </div>
-                           </div>
-                       </div>
-                   </div>
-                   
-                   <div class="col-1-of-4">
-                       <div class="skill-box">
-                           <i class="skill-box__icon fab fa-sass"></i>
-                           <h4 class="skill-box__progress-title">Sass</h4>
-                           <div class="skill-box__progress">
+                           </div> -->
+                    </div>
+                </div>
+
+                <div class="col-1-of-4">
+                    <div class="skill-box">
+                        <i class="skill-box__icon fab fa-sass"></i>
+                        <h4 class="skill-box__progress-title">Sass</h4>
+                        <!--  <div class="skill-box__progress">
                            <div class="skill-box__progress-bar" style="background-color: #ff652f; width: 30%;">
                                <div class="skill-box__progress-value">30%</div>
                            </div>
-                           </div>
-                       </div>
-                   </div>
-                   
-                   <div class="col-1-of-4">
-                       <div class="skill-box">
-                           <i class="skill-box__icon fab fa-js"></i>
-                           <h4 class="skill-box__progress-title">JavaScript</h4>
-                           <div class="skill-box__progress">
+                           </div> -->
+                    </div>
+                </div>
+
+                <div class="col-1-of-4">
+                    <div class="skill-box">
+                        <i class="skill-box__icon fab fa-js"></i>
+                        <h4 class="skill-box__progress-title">JavaScript</h4>
+                        <!--  <div class="skill-box__progress">
                            <div class="skill-box__progress-bar" style="background-color: #ff652f; width: 30%;">
                                <div class="skill-box__progress-value">30%</div>
                            </div>
-                           </div>
-                       </div>
-                   </div>
-                   
-                   
-               </div>  
-               
-               <div class="row">
-                   <div class="col-1-of-4">
-                       <div class="skill-box">
-                           <i class="skill-box__icon fab fa-bootstrap"></i>
-                           <h4 class="skill-box__progress-title">Bootstrap</h4>
-                           <div class="skill-box__progress">
+                           </div> -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-1-of-4">
+                    <div class="skill-box">
+                        <i class="skill-box__icon fab fa-bootstrap"></i>
+                        <h4 class="skill-box__progress-title">Bootstrap 4</h4>
+                        <!--  <div class="skill-box__progress">
                                <div class="skill-box__progress-bar" style="background-color: #ff652f; width: 50%;">
                                    <div class="skill-box__progress-value">50%</div>
                                </div>
-                           </div>
-                       </div>
-                   </div>
+                           </div>-->
+                    </div>
+                </div>
+                
+                    <div class="col-1-of-4">
+                        <div class="skill-box">
+                            <i class="skill-box__icon fab fa-node"></i>
+                            <h4 class="skill-box__progress-title">node.js</h4>
+                        </div>
+                    </div>
+                
+                
+                <div class="col-1-of-4">
+                    <div class="skill-box">
+                        <i class="skill-box__icon fab fa-react"></i>
+                        <h4 class="skill-box__progress-title">React</h4>
+                    </div>
+                </div>
 
-               </div> 
-           </section>
-           
+                <div class="col-1-of-4">
+                    <div class="skill-box">
+                        <i class="skill-box__icon fab fa-github"></i>
+                        <h4 class="skill-box__progress-title">GitHub</h4>
+                    </div>
+                </div>
+
+            </div>
+            
+            <div class="row">
+                <div class="col-1-of-4">
+                    <div class="skill-box">
+                        <img src="img/API.png" alt="" class="skill-box__icon-png" height="66px" width="50px">
+                        <h4 class="skill-box__progress-title">API</h4>
+                        
+                    </div>
+                </div>
+                
+                <div class="col-1-of-4">
+                    <div class="skill-box">
+                        <img src="img/express-js-icon-10.png" alt="" class="skill-box__icon-png" height="66px" width="150px">
+                        <h4 class="skill-box__progress-title">Express</h4>
+                    </div>
+                </div>
+
+                <div class="col-1-of-4">
+                    <div class="skill-box">
+                        <img src="img/json.jpg" alt="" class="skill-box__icon-png" height="65px" width="50px">
+                        <h4 class="skill-box__progress-title">JSON</h4>
+                    </div>
+                </div>
+                
+                <div class="col-1-of-4">
+                    <div class="skill-box">
+                        <img src="img/jQuery.png" alt="" class="skill-box__icon-png">
+                        <h4 class="skill-box__progress-title">jQuery</h4>
+                    </div>
+                </div>
+
+            </div>
+            
+        </section>
+
         <section id="projects-main" class="section-projectsmain">
             <div class="u-center-text u-margin-bottom-big">
                 <h2 class="heading-secondary">
                     My projects
                 </h2>
             </div>
-            
+
             <div class="project__items1">
                 <div class="project__item1">
                     <img src="img/code.jpg" alt="My Project" class="project__item1--p1">
                     <div class="project__btns1">
                         <a href="projects.html" class="project__btn11" target="_blank">
-                            <i class="fas fa-eye" ></i> See my projects</a>
+                            <i class="fas fa-eye"></i> See my projects</a>
                     </div>
                 </div>
             </div>
         </section>
-          
-        <section id="icons" class="icons">
-             <div class="social-icons">
-                 <a href="#" target="_blank"><i class="social-icons__icon fab fa-linkedin"></i></a>
-                 <a href="https://github.com/AnnaCh84" target="_blank"><i class="social-icons__icon fab fa-github"></i></a>
-             </div>
-        </section>
-           
-       </main>
-       
-       <footer class="footer">
-          <div class="row">
-           <div class="col-1-of-2">
-               <div class="footer__navigation">
-                   <ul class="footer__list">
-                       <li class="footer__item"><a href="#home" class="footer__link">Home</a></li>
-                       <li class="footer__item"><a href="#about-me" class="footer__link">About me</a></li>
-                       <li class="footer__item"><a href="#skills" class="footer__link">Skills</a></li>
-                       <li class="footer__item"><a href="projects.html" class="footer__link">Projects</a></li>
-                       <li class="footer__item"><a href="#home" class="footer__link">Contact me</a></li>
-                   </ul>
-               </div>
-           </div>
-           <div class="col-1-of-2">
-               <p class="footer__copyright">
-                   Copright &copy; 2019 Anna Chmielarczyk
-               </p>
-           </div>
-       </div>
-       </footer>
-       
-       <div id="popup1" class="overlay">
-       <div class="overlay__popup">
 
-              <div class="overlay__left">
-                  <h2 class="heading-secondary">Anna Chmielarczyk</h2>
-                  <p class="overlay--text1">Amager Boulevard 126, 3th </br>
-                                           2300 Kobenhavn S</br>Denmark</p>
-                    
-                        <p class="overlay--text2">
-                            Phone: <a href="tel:+45-20-22-42-54">+45 20-22-42-54</a></br>
-                            E-mail: <a href="mailto:ania.p.c@gmail.com" target="_blank" >ania.p.c@gmail.com</a></p>
-              </div>
-                                         
-              <div class="overlay__right">
-                 <a href="#" class="overlay__close">&times; </a>
-                  <a href="https://www.linkedin.com/in/anna-chmielarczyk" target="_blank"><i class="overlay__icon fab fa-linkedin"></i></a>
-                  <a href="https://github.com/AnnaCh84">
-                  <i class="overlay__icon fab fa-github"></i>
-                  </a>
-              </div>
+        <section id="icons" class="icons">
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/anna-chmielarczyk" target="_blank"><i class="social-icons__icon fab fa-linkedin"></i></a>
+                <a href="https://github.com/AnnaCh84" target="_blank"><i class="social-icons__icon fab fa-github"></i></a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="row">
+            <div class="col-1-of-2">
+                <div class="footer__navigation">
+                    <ul class="footer__list">
+                        <li class="footer__item"><a href="#home" class="footer__link">Home</a></li>
+                        <li class="footer__item"><a href="#about-me" class="footer__link">About me</a></li>
+                        <li class="footer__item"><a href="#skills" class="footer__link">Skills</a></li>
+                        <li class="footer__item"><a href="projects.html" class="footer__link">Projects</a></li>
+                        <li class="footer__item"><a href="#home" class="footer__link">Contact me</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-1-of-2">
+                <p class="footer__copyright">
+                    Copright &copy; 2019 Anna Chmielarczyk
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <div id="popup1" class="overlay">
+        <div class="overlay__popup">
+
+            <div class="overlay__left">
+                <h2 class="heading-secondary">Anna Chmielarczyk</h2>
+                <p class="overlay--text1">Amager Boulevard 126, 3th </br>
+                    2300 Kobenhavn S</br>Denmark</p>
+
+                <p class="overlay--text2">
+                    Phone: <a href="tel:+45-20-22-42-54">+45 20-22-42-54</a></br>
+                    E-mail: <a href="mailto:ania.p.c@gmail.com" target="_blank">ania.p.c@gmail.com</a></p>
+            </div>
+
+            <div class="overlay__right">
+                <a href="#" class="overlay__close">&times; </a>
+                <a href="https://www.linkedin.com/in/anna-chmielarczyk" target="_blank"><i class="overlay__icon fab fa-linkedin"></i></a>
+                <a href="https://github.com/AnnaCh84">
+                    <i class="overlay__icon fab fa-github"></i>
+                </a>
+            </div>
         </div>
     </div>
-</div>
-       
-      
-<script
-        src="https://code.jquery.com/jquery-3.4.1.min.js"
-        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-        crossorigin="anonymous">
-</script>  
+    </div>
 
 
-<script src="js/main.js"></script>
-<script src="jquery/jquery.smooth-scroll.min.js"></script>
-<script src="jquery/jquery.waypoints.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous">
+    </script>
 
-<script>
-    function closeNav() {
-        document.getElementById("navi-toggle").checked = false;
-    } 
-</script> 
-        <!--
+
+    <script src="js/main.js"></script>
+    <script src="jquery/jquery.smooth-scroll.min.js"></script>
+    <script src="jquery/jquery.waypoints.min.js"></script>
+
+    <script>
+        function closeNav() {
+            document.getElementById("navi-toggle").checked = false;
+        }
+    </script>
+    <!--
         <section class="grid-test">
             <div class="row">
                 <div class="col-1-of-2">
@@ -312,10 +362,8 @@
 
         </section>  
         -->
-        
-    </body>
 
-</html>
+</body></html>
 
 
 
